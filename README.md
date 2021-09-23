@@ -20,7 +20,7 @@ let sum = 5 / 0;
 let x = true;
 let y = x ? 1 : 2;
 ```
-
+- - -
 
 2. Welchen Wert hat ```z.length``` ?
 
@@ -28,7 +28,10 @@ let y = x ? 1 : 2;
 let z = "hallo";
 ```
 
+- - -
 3. Bezogen auf Aufgabe 2: Welchen Wert hat ```z[4]``` ?
+
+- - -
 
 4. Was ist ```(a===b)``` ?
 
@@ -36,6 +39,7 @@ let z = "hallo";
 let a = "10";
 let b = 10;
 ```
+- - -
 
 5. Was ergibt ```(e && f)``` ?
 
@@ -43,6 +47,7 @@ let b = 10;
 let e = true;
 let f = false;
 ```
+- - -
 
 6. Was ergibt ```(c || d)``` ?
 
@@ -59,10 +64,11 @@ let d = 3;
 let x = 10;
 let x = 11;
 ````
-
+- - -
 
 2. Wie kann man den obigen Code ändern, um den Fehler zu beheben?
 
+- - -
 
 3. Was ergibt ```(a || b)``` ?
 
@@ -71,6 +77,7 @@ let a = undefined;
 let b = 3;
 ```
 
+- - -
 
 4. Was ergibt ```(c < d)``` ?
 
@@ -79,11 +86,15 @@ let c = 3;
 let d = 3;
 ```
 
+- - -
 
 5. Was ergibt ```(c <= d)``` ?
 
+- - -
 
 6. Welche JavaScript-Funktion braucht man, um eine Zufallszahl zwischen 10 und 20 generieren?
+
+
 
 ## Teil 3
 
@@ -99,6 +110,8 @@ Markiert die richtigen Antworten mit einem Stern  [ * ]
     [ ] Boolean
     
     [ ] String
+    
+- - -
 
 2. Die Zahl -100 ist ein von welchem Datentyp?
     
@@ -109,6 +122,8 @@ Markiert die richtigen Antworten mit einem Stern  [ * ]
     [ ] Boolean
     
     [ ] String
+    
+    - - -
 
 3. Die Zeichenkette "hello world" ist ein von welchem Datentyp?
     
@@ -119,24 +134,33 @@ Markiert die richtigen Antworten mit einem Stern  [ * ]
     [ ] Boolean
     
     [ ] String
+    
+    - - -
+    
 
 4. (true || false) ergibt
     
     [ ] true 
     
     [ ] false
+    
+    - - -
 
 5. (true && false) ergibt
     
     [ ] true 
     
     [ ] false
+    
+    - - -
 
 6. (false && false) ergibt
     
     [ ] true 
     
     [ ] false
+    
+    - - -
 
 7. 15%4 ist:
     
@@ -145,12 +169,16 @@ Markiert die richtigen Antworten mit einem Stern  [ * ]
     [ ] 3
     
     [ ] 2
+    
+    - - -
 
 8. 13%2 ist:
     
     [ ] 1
     
     [ ] 0
+    
+    - - -
 
 9. let x = "hello world"; Wie kann ich an den zweiten Buchstaben "e" rankommen?
     
@@ -168,12 +196,17 @@ Markiert die richtigen Antworten mit einem Stern  [ * ]
 
 1. Welche Datentypen hat JavaScript bzw. welche fallen dir ein?
 
+- - -
+
 2. Ist folgender Code gültig bzw. richtig? 
 
 ```const arr = [function(){alert('hello world')}, 0, "bye", undefined]```
 
-a. Falls nein, warum nicht?
-b. Falls ja, wie könntest du die function im Array aufrufen?
+2a. Falls nein, warum nicht?
+
+2b. Falls ja, wie könntest du die function im Array aufrufen?
+
+- - -
 
 3. Welche Wert wird die console ausgeben und warum?
 
@@ -184,8 +217,10 @@ if(myVar) {
 } else {
  let myString = "bye"
 }
+console.log(myString);
 ```
-console.log(myString)
+
+- - -
 
 4. Wir haben folgendes Object Literal:
 ```
@@ -200,17 +235,23 @@ let myObj = {
 }
 ```
 
-a. Wie kann ich auf den Wert von *name* zugreifen?
-b. Wie greife ich auf das zweite Hobby *Skateboarden* zu?
-c. Wie erhalte ich den Namen der Tochter?
+4a. Wie kann ich auf den Wert von *name* zugreifen?
 
-d. Mit welche Methode erhalte ich alle keys von myObj in einem Array?
+4b. Wie greife ich auf das zweite Hobby *Skateboarden* zu?
+
+4c. Wie erhalte ich den Namen der Tochter?
+
+4d. Mit welche Methode erhalte ich alle keys von myObj in einem Array?
+
+- - -
 
 5. Mit welcher Funktion bzw. wie erhältst du die größte Zahl in einem Array, hier also *10*?
 
 ```
 const myArr = [5, 3, 1, 6, 10, 0, -100];
 ```
+
+- - -
 
 6. Was gibt folgender Code aus und warum?
 ```
@@ -222,6 +263,7 @@ function logNumber () {
 }
 logNumber();
 ```
+- - -
 
 7. Wie rufst du die function greet auf?
 
@@ -235,6 +277,8 @@ function something() {
   greet();
 }
 ```
+
+- - -
 
 8. Wie kannst du das Alter von Hermine auf 45 ändern? Tipp: Du musst zuerst auf das Array-Element und dann auf die Eigenschaft des Objects zugreifen. Du brauchst also "[]" und "."
 
@@ -255,12 +299,16 @@ const someArr = [
 ];
 ```
 
+- - -
+
 9. Wie kannst du folgendes Array kopieren und noch die Zahl 5 an den Anfang hinzufügen?
 
 ```
 const someArr = [4,7,8,1,2];
 const newArray = //... In diesem Array sollen alle zahlen aus someArr und die zusätzliche 5 stehen
 ```
+
+- - -
 
 10. Was gibt folgender Code aus?
 
@@ -271,6 +319,8 @@ console.log(i);
 ```
 
 Wie könntest du die Zeile ```i += 5; ``` noch schreiben?
+
+- - -
 
 11. Welche Möglichkeiten kennst du, um ein array zu durchlaufen? Verwende unterschiedliche Varianten, um jedes Element des nachfolgenden Arrays in der Console auszugeben auszugeben:
 
