@@ -365,7 +365,7 @@ console.log(arrTwo);
 
 ```
 const namesArray = ["Beate", "Julia", "Enis", "Silvia"];
-//Neues Array soll wie folgt aussehen: 
+// Neues Array soll wie folgt aussehen: 
 // ["Hallo Beate", "Hallo Julia", "Hallo Enis", "Hallo Silvia"]
 ```
 
@@ -373,7 +373,7 @@ const namesArray = ["Beate", "Julia", "Enis", "Silvia"];
 
 14b. Erzeuge mittels filter ein array, dass nur Namen aus *namesArray* enthält, die jeweils den Buchstaben e bzw. E (also groß oder klein) enthalten. In diesem Fall wäre es also: ```["Beate", "Enis"]```
 
-14c. Schreibe eine Funktion, dass die Namen in einem Array umkehrt und diese als neues Array zurückgibt.
+14c. Schreibe eine Funktion, die die Namen in einem Array umkehrt und diese als neues Array zurückgibt.
 
 ```
 function namesReverser(arr) {
@@ -381,6 +381,7 @@ function namesReverser(arr) {
   const reversedArr = //...
 
   return reversedArr;
+}
 ```
 
 - - -
