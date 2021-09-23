@@ -159,3 +159,51 @@ Markiert die richtigen Antworten mit einem Stern  [ * ]
     [ ] x[2]
     
     [ ] x[3]
+    
+    
+    
+## Teil 4
+
+1. Welche Datentypen hat JavaScript bzw. welche fallen dir ein?
+
+2. Ist folgender Code gültig bzw. richtig? 
+
+```const arr = [function(){alert('hello world')}, 0, "bye", undefined]```
+
+a. Falls nein, warum nicht?
+b. Falls ja, wie könntest du die function im Array aufrufen?
+
+3. Welche Wert wird die console ausgeben und warum?
+
+```let myVar = true;
+if(myVar) {
+ let myString = "hi";
+} else {
+ let myString = "bye"
+}```
+console.log(myString)
+
+4. Wir haben folgendes Object Literal:
+```
+let myObj = {
+ name: "Wolfgang Petry",
+ alter: 72,
+ hobbys: ["Call of Duty", "Skateboarden", "Bier"],
+ familie: {
+   tochter: "Susanne",
+   frau: "Brunhilde"
+ }
+}
+```
+
+a. Wie kann ich auf den Wert von *name* zugreifen?
+b. Wie greife ich auf das zweite Hobby *Skateboarden* zu?
+c. Wie erhalte ich den Namen der Tochter?
+
+d. Mit welche Methode erhalte ich alle keys von myObj in einem Array?
+
+5. Mit welcher Funktion bzw. wie erhältst du die größte Zahl in einem Array, hier also *10*?
+
+```
+const myArr = [5, 3, 1, 6, 10, 0, -100];
+```
