@@ -164,6 +164,8 @@ Markiert die richtigen Antworten mit einem Stern  [ * ]
     
 ## Teil 4
 
+*Hinweis: Dieser Teil ist ein mix aus Quiz und kleinen Aufgaben*
+
 1. Welche Datentypen hat JavaScript bzw. welche fallen dir ein?
 
 2. Ist folgender Code gültig bzw. richtig? 
@@ -175,12 +177,14 @@ b. Falls ja, wie könntest du die function im Array aufrufen?
 
 3. Welche Wert wird die console ausgeben und warum?
 
-```let myVar = true;
+```
+let myVar = true;
 if(myVar) {
  let myString = "hi";
 } else {
  let myString = "bye"
-}```
+}
+```
 console.log(myString)
 
 4. Wir haben folgendes Object Literal:
@@ -207,3 +211,74 @@ d. Mit welche Methode erhalte ich alle keys von myObj in einem Array?
 ```
 const myArr = [5, 3, 1, 6, 10, 0, -100];
 ```
+
+6. Was gibt folgender Code aus und warum?
+```
+var num = "10";
+function logNumber () {
+ console.log("Original Number " + num);
+ var num = "50";
+ console.log("New Number " + num);
+}
+logNumber();
+```
+
+7. Wie rufst du die function greet auf?
+
+```
+function something() {
+  
+  function greet() {
+    console.log("hellor world!");
+  }
+  
+  greet();
+}
+```
+
+8. Wie kannst du das Alter von Hermine auf 45 ändern? Tipp: Du musst zuerst auf das Array-Element und dann auf die Eigenschaft des Objects zugreifen. Du brauchst also "[]" und "."
+
+```
+const someArr = [
+  {
+    name: "Alina",
+    alter: 25
+  },
+  {
+    name: "Tareq",
+    alter: 35
+  },
+  {
+    name: "Hermine",
+    alter: 42
+  }
+];
+```
+
+9. Wie kannst du folgendes Array kopieren und noch die Zahl 5 an den Anfang hinzufügen?
+
+```
+const someArr = [4,7,8,1,2];
+const newArray = //... In diesem Array sollen alle zahlen aus someArr und die zusätzliche 5 stehen
+```
+
+10. Was gibt folgender Code aus?
+
+```
+let i = 5;
+i += 5; 
+console.log(i);
+```
+
+Wie könntest du die Zeile ```i += 5; ``` noch schreiben?
+
+11. Welche Möglichkeiten kennst du, um ein array zu durchlaufen? Verwende unterschiedliche Varianten, um jedes Element des nachfolgenden Arrays in der Console auszugeben auszugeben:
+
+```
+const countries = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguilla","Antigua &amp; Barbuda","Argentina","Armenia","Aruba","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bermuda","Bhutan","Bolivia"];
+```
+
+
+## Bonus: weitere Fragen zu JavaScript
+* https://www.tutorialsteacher.com/online-test/javascript-test1 
+* https://www.dotnettricks.com/learn/javascript/javascript-interview-questions
