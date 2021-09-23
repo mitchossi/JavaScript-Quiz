@@ -328,6 +328,63 @@ Wie könntest du die Zeile ```i += 5; ``` noch schreiben?
 const countries = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguilla","Antigua &amp; Barbuda","Argentina","Armenia","Aruba","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bermuda","Bhutan","Bolivia"];
 ```
 
+- - -
+
+12. Gegeben ist folgendes Object:
+
+```
+const auto = {
+  baujahr: 1985,
+  marke: "MBW"
+}
+```
+
+12a. Kannst du dem Object noch nachträglich den key "inhaber" mit dem Wert "Jan Tenner" zuordnen? Falls nein, warum? Falls ja, wie?
+
+12b. Kannst du den key "marke" nachträglich entfernen? Wenn ja, wie?
+
+12c. Erstelle eine Kopie des Objects in eine neue Variable und füge gleichzeitig zwei neue key/value Paare hinzu: ```farbe: rot, zugelassen: true```
+
+- - -
+
+13. Was wird hier die Console ausgeben und warum?
+
+```
+const arrOriginal = [1,2,3,4,5];
+const arrTwo = arrOriginal;
+arrTwo[0] = 1000;
+
+console.log(arrOriginal);
+console.log(arrTwo);
+```
+
+- - -
+
+
+14. Nutze die map Function, um ein neues Array zu erstellen, das den String "Hallo " vor jedes Element des nachfolgenden Arrays schreibt:
+
+```
+const namesArray = ["Beate", "Julia", "Enis", "Silvia"];
+//Neues Array soll wie folgt aussehen: 
+// ["Hallo Beate", "Hallo Julia", "Hallo Enis", "Hallo Silvia"]
+```
+
+14a. Gibt es noch andere Möglichkeiten, ohne map?
+
+14b. Erzeuge mittels filter ein array, dass nur Namen aus *namesArray* enthält, die jeweils den Buchstaben e bzw. E (also groß oder klein) enthalten. In diesem Fall wäre es also: ```["Beate", "Enis"]```
+
+14c. Schreibe eine Funktion, dass die Namen in einem Array umkehrt und diese als neues Array zurückgibt.
+
+```
+function namesReverser(arr) {
+  //...
+  const reversedArr = //...
+
+  return reversedArr;
+```
+
+- - -
+
 
 ## Bonus: weitere Fragen zu JavaScript
 * https://www.tutorialsteacher.com/online-test/javascript-test1 
